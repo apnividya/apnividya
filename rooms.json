@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Anik Chakraborty",
+        "college":"CST, RIST",
+        "phonenumber":"6009415224",
+        "location":"kamalpur",
+        "imageurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKhLjc2BJ9iIU3pZmWODbux7WhoADtldRBYQ&usqp=CAU",
+        "mode":"online",
+        "subject":"Computer Science",
+        "description":"lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+    },
+    {
+        "name":"Anik Chakraborty",
+        "college":"CST, RIST",
+        "phonenumber":"8974326847",
+        "location":"kamalpur",
+        "imageurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKhLjc2BJ9iIU3pZmWODbux7WhoADtldRBYQ&usqp=CAU",
+        "mode":"online",
+        "subject":"Computer Science",
+        "description":"lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+    }
+]
