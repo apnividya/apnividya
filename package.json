@@ -15,6 +15,7 @@
     "express": "^4.18.2",
     "mongoose": "^7.4.2",
     "nodemon": "^2.0.22",
-    "router": "^1.3.8"
+    "router": "^1.3.8",
+    "cors": "^2.8.5" 
   },"proxy": "https://apnividya.onrender.com/"
 }
