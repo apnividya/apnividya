@@ -1,14 +1,17 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
 
 const dbConfig = require("./db");
 const roomsRoute = require("./routes/roomsRoute");
 
+app.use(cors({
+  origin: "https://site.apnividya.in",
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  credentials: true
+}));
+
 app.use('/api/rooms', roomsRoute);
 const port = process.env.PORT || 5000;
 
-if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('client/build'));
-}
-
-app.listen(port, () => console.log(`Server running on`));
+app.listen(port, () => console.log(`Server running on port ${port}`));
