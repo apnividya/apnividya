@@ -6,7 +6,7 @@ const dbConfig = require("./db");
 const roomsRoute = require("./routes/roomsRoute");
 
 app.use(cors({
-  origin: ["https://site.apnividya.in", "https://apnividya.in", "https://www.apnividya.in"],
+  origin: ["https://site.apnividya.in", "https://apnividya.in", "https://www.apnividya.in", "https://in.apnividya.in"],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true
 }));
